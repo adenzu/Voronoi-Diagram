@@ -100,7 +100,10 @@ int main(int argc, char ** argv){
 				
 				curr_distance = distance(point_list[i], curr_point);
 				
-				if(DRAW_CENTERS && curr_distance < POINT_RADIUS) nearest_point = POINT_COUNT;
+				if(DRAW_CENTERS && curr_distance < POINT_RADIUS * POINT_RADIUS){
+					nearest_point = POINT_COUNT;
+					break;
+				}
 				else if(curr_distance < min_distance){
 					min_distance = curr_distance;
 					nearest_point = i;
