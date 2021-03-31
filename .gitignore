@@ -1,3 +1,6 @@
 *.exe
 *.swp
-*.*~
+*.un~
+*.cpp~
+*.md~
+*.gitignore~
