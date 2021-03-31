@@ -1,7 +1,5 @@
 # Voronoi Diagram Grapher
 
-Graphs randomly generated voronoi diagram.
-
 How to use:
 `./voronoi_gen [SCREEN WIDTH] [SCREEN HEIGHT] [NUMBER OF CENTERS] [SHOW CENTERS] [CENTER MARK RADIUS]`
 
